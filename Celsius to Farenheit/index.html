@@ -1,1 +1,38 @@
 
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Browser</title>
+</head>
+
+<body>
+    <div id="source">
+        <h2>Celcious to Farenheit</h2>
+        <div class="inputdiv">
+          <input type="text" id="input" placeholder="Enter the value to be converted to farenhet">
+          </div>
+       
+        <div >
+          <button type="submit" onclick="convert()"> Convert to Farenheit</button>
+          </div>
+        <div id="result">
+        </div>
+    </div>
+
+    <script>
+      function convert() {
+      let celc=Number(document.getElementById("input").value)
+      let fare =(celc*9/5)+32
+      let result = document.getElementById("result")
+      result.innerHTML=fare+" degree"
+      }
+      
+    </script>
+</body>
