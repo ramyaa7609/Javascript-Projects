@@ -1,1 +1,37 @@
+body{
+  padding: 25px;
+}
+.title {
+  text-align:center;
+	color: #5C6AC4;
+}
+form{
+   max-width:600px;
+   margin :0;
+   padding: 20px;
+   border-radius: 8px;
+   background-color: #fff;
+   box-shadow: 0 0 10px 7px rgba(0,0,0,0.2);
+}
+input[type=text], input[type=password],input[type=email],{
+  width: 100%;
+  margin: 0px;
+  padding: 5px;
+}
+select{
+  width: 100%;
+  padding: 5px;
+  
+}
+input[type=submit]{ 
+  margin:10px;
+  width:50%;
+  color: #000000;
+  background-color:rgba(0,0,0,0.1);
+}
+input[type=submit]:hover{
+  background-color: #C4A484 ;
+}
 
+
+}
