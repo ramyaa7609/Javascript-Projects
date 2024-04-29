@@ -1,1 +1,64 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title">Registration Form </h1>
+      <form name="RegForm" onclick="validateForm">
+        <p>
+        <label for="Fname"><b>First Name</b></label></br>
+        <input type="text" id="Fname" placeholder="Enter your first name" required="" >
+        </p>
+        <label for="Lname"><b>Last Name</b>Last Name</label></br>
+        <input type="text" id="Lname" placeholder="Enter your last name" required="">
+        </p>
+        <p>
+          <label for="addr"><b>Address</b></label><br>
+          <input type="text" id="addr"placeholder="Type your Address" required="">
+        </p>
+        <p>
+          <label for="password"><b>Password</b></label>
+          <input type="password" id="password" placeholder="Set your password" required="">
+          
+        </p>
+        <p>
+        <label for="eMail"><b>E-Mail Address</b></label><br>
+        <input type="email" id="eMail" placeholder="Enter your email" required="">
+        </p>
+        <div>
+          <label for="Num"><b>Contact Number</b></label><br>
+          <input type="text" id="Num" placeholder=" Enter your phone number" required="">
+        </div><br>
+        <div>
+          <label for="gender"><b>Gender</b></label><br>
+          <lable >Male</lable>
+          <input type="radio" id="male" name="gender_mf" value="Male">
+          <lable >Female</lable>
+          <input type="radio" id="female" name="gender_mf" value="Feamle">
+        </div><br>
+        <div>
+          <label for="department"> <b>Select your department</b></label>
+          <select id="department" placeholder="Choose our department" name="department">
+            <option value="Computer Science">Computer Science</option>
+            <option value="Information Technology">Information Technology</option>
+            <option value="Electronics and Communication Engineering">Electronics and Communication Engineering</option>
+            <option value="Mechanical Engineering">Mechanical Engineering</option>
+        </div><br>
+        
+        <p>
+          <input type="submit" value="submit">
+        </p>
+        
+        
+        
+        
+        
+        
+        
+      </form>
+      
+      <script src="script.js"></script>
+  </body>
+</html>
